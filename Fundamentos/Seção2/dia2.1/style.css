@@ -1,0 +1,38 @@
+
+      h1{
+        color: dimgray;
+        font-family: sans-serif;
+        font-weight: bold;
+        text-align: center;
+      }
+      h2{
+        color: dimgray;
+        font-family: sans-serif;
+        font-weight: bold;
+        text-align: center;
+      }
+        
+        
+        p{
+            background-color: blue;
+            color: black;
+        }
+        #comida{
+            background-color: red;
+            color: white;
+        }
+        .Frutas{
+            background-color: green;
+            color: white;
+            line-height: 30px;
+            font-style: italic;
+            text-decoration: underline;
+        }
+        .comidas{
+            background-color: yellow;
+            color: black;
+            line-height: 30px;
+            font-style: italic;
+            text-decoration: underline;
+        }
+  

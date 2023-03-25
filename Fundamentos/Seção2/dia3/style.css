@@ -1,0 +1,41 @@
+.lista{
+    background-color: yellow;
+}
+
+.impar{
+    text-transform:capitalize;
+    font-weight: bold;
+}
+
+
+.par{
+    color: green ;
+    font-weight: bold;
+}
+ 
+.Header{
+    color: red;
+ }
+ 
+ .titulo{
+    font-size: 40px;
+    border: 1px solid black;
+ } 
+ 
+ .lista-link{
+    font-size: 20px;
+ }
+ 
+ div .azul{
+    color: blue;
+ }
+ 
+ .java{
+    background-color: pink;
+ }
+ 
+ li :hover{
+   font-weight: bold;
+ }
+
+
