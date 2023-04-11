@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <script>
+   //1
+   const h1 = document.createElement('h1');
+    h1.innerText = 'TrybeTrip - Agência de Viagens';
+    document.body.appendChild(h1);
+//2
+    const tag = document.createElement('main');
+    tag.className = 'main-content';
+    document.body.appendChild(tag);
+//3
+    const section = document.createElement('section');
+    section.className = 'center-content';
+    tag.appendChild(section);
+//4
+
+    const p = document.createElement('p');
+    section.appendChild(p);
+    p.innerText = 'Aqui e Galoooo'
+//5
+
+    const leftContent = document.createElement('section');
+    leftContent.className = 'left-content';
+    tag.appendChild(leftContent);
+//6
+
+    const rightContent = document.createElement('section');
+    rightContent.className = 'right-content';
+    tag.appendChild(rightContent);
+//7
+
+    const imagenzinha = document.createElement('img');
+    imagenzinha.src = 'https://picsum.photos/200';
+    imagenzinha.className = 'small-image';
+    leftContent.appendChild(imagenzinha);
+//8
+
+    const listaNaoOrdenada = document.createElement('ul');
+    const numeros = ['um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'];
+
+    for(let i = 0; i < numeros.length; i += 1) {
+    const lista = document.createElement('li');
+    lista.innerText = numeros[i];
+    listaNaoOrdenada.appendChild(lista);
+}
+rightContent.appendChild(listaNaoOrdenada);
+//9
+     
+    for(let i = 0; i<3;i+=1){
+
+        const h3 = document.createElement('h3');
+        h3.innerText = i;
+        tag.appendChild(h3)
+    }
+
+
+
+   </script>       
+  </body>
+</html>
